@@ -1,0 +1,26 @@
+defaults:
+    medium: distribution
+    source: mozilla
+configs:
+-   campaign: sample
+    content: sample-001
+    locales:
+    - en-US
+    - de
+    - ru
+    platforms:
+    - win64-shippable
+    - win32-shippable
+    upload_to_candidates: true
+# second config with private artifacts, and partial locale overlap with sample-001 (de) plus extras (en-CA, he),
+# and extra locale not present in staging releases (zh-TW)
+-   campaign: test
+    content: test-002
+    locales:
+    - de
+    - en-CA
+    - he
+    - zh-TW
+    platforms:
+    - win64-shippable
+    - win32-shippable
