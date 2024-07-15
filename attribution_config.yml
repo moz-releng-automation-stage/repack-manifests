@@ -12,6 +12,7 @@ configs:
     - win64-shippable
     - win32-shippable
     upload_to_candidates: true
+    publish_to_releases: true
 # second config with partial locale overlap with sample-001 (de) plus extras (en-CA, he),
 # and extra locale not present in staging releases (zh-TW)
 -   campaign: test
