@@ -26,3 +26,14 @@ configs:
     - win64-shippable
     - win32-shippable
     upload_to_candidates: true
+-   campaign: smi
+    content: smi-001
+    locales:
+    - en-US
+    - en-CA
+    platforms:
+    - macosx64-shippable
+    - win64-shippable
+    - win32-shippable
+    upload_to_candidates: true
+    publish_to_releases: true
