@@ -30,7 +30,7 @@ configs:
     content: smi-001
     locales:
     - en-US
-    - en-CA
+    - en-GB
     platforms:
     - macosx64-shippable
     - win64-shippable
